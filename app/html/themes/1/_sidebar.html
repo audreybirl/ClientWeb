@@ -28,46 +28,6 @@
             <li class="{% if (page.slug == 'login') %} active{% endif %}">
                 <a href="login.html"><i class="icon-lock-fill"></i> S'identifier</a>
             </li>
-            <li class="hasSubmenu {% if (page.slug == 'buttons' or page.slug == 'icons' or page.slug == 'grid' or page.slug == 'progress' or page.slug == 'maps' or page.slug == 'forms' or page.slug == 'tables') %} open {% endif %}">
-                <a href="#components" data-toggle="collapse"><i class="icon-paint-brushes"></i>UI composants</a>
-                <ul class="collapse {% if (page.slug == 'buttons' or page.slug == 'icons' or page.slug == 'grid' or page.slug == 'progress' or page.slug == 'maps' or page.slug == 'forms' or page.slug == 'tables') %} in {% endif %}" id="components">
-                    <li class="{% if (page.slug == 'buttons') %} active{% endif %}">
-                        <a href="buttons.html"><i class="fa fa-circle-o"></i> boutons</a>
-                    </li>
-                    <li class="{% if (page.slug == 'icons') %} active{% endif %}">
-                        <a href="icons.html"><i class="fa fa-circle-o"></i> Icônes</a>
-                    </li>
-                    <li class="{% if (page.slug == 'progress') %} active{% endif %}">
-                        <a href="progress.html"><i class="fa fa-circle-o"></i> Progrès</a>
-                    </li>
-                    <li class="{% if (page.slug == 'grid') %} active{% endif %}">
-                        <a href="grid.html"><i class="fa fa-circle-o"></i> Grille</a>
-                    </li>
-                    <li  class="{% if (page.slug == 'forms') %} active{% endif %}">
-                        <a href="forms.html"><i class="fa fa-circle-o"></i> Formulaires</a>
-                    </li>
-                    <li  class="{% if (page.slug == 'tables') %} active{% endif %}">
-                        <a href="tables.html"><i class="fa fa-circle-o"></i> Tableaux</a>
-                    </li>
-                </ul>
-            </li>
-
-            <!-- Sample 2 Level Collapse -->
-            <li class="hasSubmenu">
-                <a href="#collapse" data-toggle="collapse">
-                    <i class="fa fa-chevron-circle-down"></i> Effondrement
-                </a>
-                <ul class="collapse" id="collapse">
-                    <li class="hasSubmenu">
-                        <a href="#collapse-1" data-toggle="collapse"><i class="fa fa-circle-o"></i> Sous-menu</a>
-                        <ul class="collapse" id="collapse-1">
-                            <li><a href="#">Lien régulière</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#"><i class="fa fa-circle-o"></i> Lien régulière</a></li>
-                </ul>
-            </li>
-
             <li class="category border top">Fils d'actualités</li>
             <li class="reset">
                 <ul>
